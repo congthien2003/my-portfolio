@@ -173,13 +173,9 @@ img {
 }
 
 .list .item-link {
-	color: rgb(124, 124, 124);
+	color: black;
 	font-weight: 450;
 	padding: 4px 8px;
-}
-
-.list .item-link.active {
-	color: black;
 }
 
 .menu .actions button {
