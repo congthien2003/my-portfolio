@@ -134,6 +134,10 @@ img {
 	display: block;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 .container {
 	width: 100%;
 	min-height: 100vh;
@@ -178,7 +182,7 @@ img {
 	padding: 4px 8px;
 }
 
-.menu .actions button {
+.menu .actions a {
 	padding: 8px 12px;
 	border-radius: 12px;
 	font-weight: 450;
@@ -187,8 +191,7 @@ img {
 }
 
 #sumary {
-	padding: 4rem 50px;
-	margin-top: 70px;
+	padding-top: 140px;
 }
 
 #sumary .container {
@@ -301,11 +304,11 @@ img {
 .about-item {
 	border-left: 2px solid black;
 	padding: 12px 48px;
-	transition: 0.2s ease-in;
+	transition: 0.3s ease-in;
 }
 
 .about-item:hover {
-	border: 2px solid gray;
+	border-bottom: 2px solid black;
 	transform: scale(102%);
 	box-shadow: 0 0 2 2 rgb(79, 79, 79);
 }
@@ -395,6 +398,11 @@ img {
 	padding: 24px;
 	background-color: #464646;
 	color: whitesmoke;
+	transition: 0.2s ease-in;
+}
+
+.project-card:hover {
+	border-radius: 12px;
 }
 
 .project-title {
@@ -474,7 +482,7 @@ img {
 
 #contact {
 	width: 100%;
-	padding: 48px 12px;
+	padding: 70px 12px 48px 12px;
 }
 
 .contact-list {
@@ -519,6 +527,10 @@ img {
 		font-size: 14px;
 	}
 
+	#sumary {
+		padding-top: 70px;
+	}
+
 	#sumary .icon {
 		margin-top: 24px;
 	}
@@ -544,7 +556,7 @@ img {
 	}
 
 	.education-main {
-		padding: 0;
+		padding: 12px 24px;
 	}
 
 	.education-logo img {
@@ -557,6 +569,14 @@ img {
 
 	.education-info p {
 		font-size: 12px;
+	}
+
+	#skills {
+		padding-top: 24px;
+	}
+
+	.skill-img {
+		min-height: 100px;
 	}
 
 	.skill-img img {
@@ -601,7 +621,7 @@ img {
 
 	#contact {
 		min-height: 50vh;
-		padding: 12px 8px;
+		padding: 24px 8px;
 	}
 
 	.contact-list {
