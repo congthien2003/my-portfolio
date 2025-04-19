@@ -1145,6 +1145,12 @@ html {
 	grid-template-columns: repeat(2, 1fr);
 }
 
+@media (max-width: 768px) {
+	.release-wrapper {
+		grid-template-columns: 1fr;
+	}
+}
+
 .release-card {
 	background: rgba(255, 255, 255, 0.95);
 	border-radius: 24px;
