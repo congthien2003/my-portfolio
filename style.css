@@ -191,12 +191,13 @@ html {
 }
 
 #sumary {
-	padding: 70px 0;
+	padding: 140px 0;
 	padding-top: 140px;
 }
 
 #sumary .container {
 	min-height: 50%;
+	color: whitesmoke;
 }
 
 .info {
